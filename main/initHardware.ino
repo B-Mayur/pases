@@ -18,7 +18,7 @@ void initHardware(long baudRate){
 
 	// 3. Initialize GSM_MODULE
 	if(GSM_MODULE_CONNECTED){
-		if(testGsmModule(gsmModule)){
+		if(testGsmModule(&gsmModule)){
 			if(DEBUGGING_ON){
 				Serial.println(F("DB: GSM_MODULE_CONNECTED SUCCESSFULLY"));
 			}
