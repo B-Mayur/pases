@@ -52,7 +52,7 @@ bool isAccident(void);
 // Set MPU6050 thresholds for the Accident Condition.
 #define MPU6050_THRESHOLD_AX	3000
 #define MPU6050_THRESHOLD_AY	3000
-#define MPU6050_THRESHOLD_AZ	4000
+#define MPU6050_THRESHOLD_AZ	3000
 #define MPU6050_THRESHOLD_GX
 #define MPU6050_THRESHOLD_GY
 #define MPU6050_THRESHOLD_GZ
